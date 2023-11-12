@@ -14,7 +14,7 @@ def work():
 @app.route("/autobiography")
 def autobiography():
     return render_template("autobiography.html")
-app.run()
+# app.run()
 
 # @app.route("/")
 # def web():
